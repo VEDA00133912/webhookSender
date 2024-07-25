@@ -1,3 +1,4 @@
+// script.js
 async function sendWebhook() {
     const url = document.getElementById('webhookURL').value;
     const content = document.getElementById('messageContent').value;
