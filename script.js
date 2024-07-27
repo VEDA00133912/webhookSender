@@ -13,6 +13,7 @@ async function sendWebhook() {
         entry.className = `log-entry ${isSuccess ? 'success' : 'failure'}`;
         entry.textContent = message;
         log.appendChild(entry);
+        log.scrollTop = log.scrollHeight; 
     };
 
     const payload = JSON.stringify({ username: name, content: content });
