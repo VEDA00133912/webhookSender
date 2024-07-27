@@ -63,6 +63,7 @@ h1 {
 }
 
 #webhookForm button {
+  font-family: "Bangers", system-ui;
   display: block;
   width: 100%;
   padding: 10px;
@@ -86,7 +87,8 @@ h1 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 50%;
   box-sizing: border-box;
-  overflow-y: auto;
+  overflow-y: auto; 
+  max-height: 800px; 
 }
 
 #log h2 {
